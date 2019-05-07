@@ -25,5 +25,7 @@ private:
 
 int main() {
     Singleton & instance = Singleton::instance();
+    std::cout << (void*)&instance << std::endl;
+
     return 0;
 }
